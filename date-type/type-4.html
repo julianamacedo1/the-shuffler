@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/zfm7ggh.css">
+    <title>ULTIMATE SHUFFLER</title>
+  </head>
+
+  <body>
+    <div class="logo-link">
+      <a href="../index.html"><h1>the shuffler!</h1></a>
+    </div>
+    <h2>nicer restaurant dates</h2>
+
+    <p>click on the button below to generate a random date idea</p>
+
+    <button id="button" onclick="pickDate()">shuffle!</button>
+
+    <p id="dateIdea"></p>
+
+    <script>
+      var idea = document.getElementById("dateIdea");
+
+      var arr = ["picnic", "walk", "run", "kayak"];
+
+      function pickDate() {
+        idea.innerHTML = arr[Math.floor(Math.random() * arr.length)];
+      }
+    </script>
+  </body>
+</html>
