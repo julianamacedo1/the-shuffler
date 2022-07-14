@@ -34,6 +34,17 @@ button {
 button:hover {
     background-color: #F7DA73;
 }
+.logo-link {
+    color: #000000;
+    background-color: #82B67F;
+    padding: 20px;
+    display: inline-block;
+    border: #000000 2px solid;
+    border-radius: 50%;
+}
+.logo-link:hover {
+    background-color: #C590E7;
+}
 .home-links {
     color: #000000;
     background-color: #72C8F0;
@@ -46,14 +57,15 @@ button:hover {
 .home-links:hover {
     background-color: #FF9CD1;
 }
-.logo-link {
+.home-links-2 {
     color: #000000;
-    background-color: #82B67F;
-    padding: 20px;
+    background-color: #72C8F0;
+    padding: 10px;
     display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
     border: #000000 2px solid;
-    border-radius: 50%;
 }
-.logo-link:hover {
-    background-color: #C590E7;
+.home-links-2:hover {
+    background-color: #FF9CD1;
 }
