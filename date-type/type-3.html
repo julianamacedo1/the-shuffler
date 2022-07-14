@@ -23,7 +23,13 @@
     <script>
       var idea = document.getElementById("dateIdea");
 
-      var arr = ["that sushi place by the house!", "phochi!", "fresh kitchen!", "costco pizza & hotdog!"];
+      var arr = [
+        "that sushi place by the house!",
+        "phochi!",
+        "fresh kitchen!",
+        "costco pizza & hotdog!",
+        "publix deli!",
+      ];
 
       function pickDate() {
         idea.innerHTML = arr[Math.floor(Math.random() * arr.length)];
