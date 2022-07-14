@@ -23,7 +23,12 @@
     <script>
       var idea = document.getElementById("dateIdea");
 
-      var arr = ["regular truly!", "bogo at publix!", "truly lemonade!"];
+      var arr = [
+        "regular truly!",
+        "publix bogo!",
+        "truly lemonade!",
+        "winn dixie bogo!",
+      ];
 
       function pickDate() {
         idea.innerHTML = arr[Math.floor(Math.random() * arr.length)];
