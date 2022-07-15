@@ -50,6 +50,9 @@ button:hover {
 .logo-link:hover {
     background-color: #C590E7;
 }
+.page-content {
+    margin: 20px;
+}
 .home-links {
     color: #000000;
     background-color: #72C8F0;
