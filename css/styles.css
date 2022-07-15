@@ -87,12 +87,5 @@ button:hover {
     border: #000000 2px solid;
 }
 .sub-title:after {
-    content: '';
-    position: absolute;
-    top: -15px;
-    left: -15px;
-    right: -15px;
-    bottom: -15px;
-    background: red;
-    z-index: -1;
+    border: #F88C52 10px solid;
 }
