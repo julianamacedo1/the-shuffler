@@ -83,13 +83,6 @@ button:hover {
     padding: 10px;
     display: inline-block;
     border: #000000 2px solid;
+    margin: 0;
 }
-.sub-title-outline {
-    color: #000000;
-    background-color: #F88C52;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline-block;
-    border: #000000 2px solid;
-    margin-top: 25px;
-}
+
