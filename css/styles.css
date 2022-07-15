@@ -78,5 +78,11 @@ button:hover {
     background-color: #72C8F0;
 }
 .sub-title {
-    
+    color: #000000;
+    background-color: #FF9CD1;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: #000000 2px solid;
 }
