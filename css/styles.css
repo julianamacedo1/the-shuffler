@@ -25,6 +25,7 @@ a {
 footer {
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #F7DA73;
     border-top: #000000 2px solid;
 }
