@@ -87,5 +87,6 @@ button:hover {
     border: #000000 2px solid;
 }
 .sub-title:after {
-    
+    background-color: #F88C52;
+    border: #000000 2px solid;
 }
