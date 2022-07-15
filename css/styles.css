@@ -22,6 +22,10 @@ a {
     text-decoration: none;
     color: #000000;
 }
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
 button {
     color: #000000;
     background-color: #F88C52;
